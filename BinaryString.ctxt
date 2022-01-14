@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=BinaryString
+comment1.params=
+comment1.target=void\ printInfo()
+comment10.params=currentString
+comment10.target=void\ printBinaryValue(java.lang.String)
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ processUserNumbers()
+comment3.params=
+comment3.target=java.lang.String[]\ processFileNumbers()
+comment4.params=textComingin
+comment4.target=void\ writeFile(java.lang.String[])
+comment5.params=textComingIn\ i
+comment5.target=java.lang.String\ currentString(java.lang.String[],\ int)
+comment6.params=currentString
+comment6.target=int\ evaluateNumber(java.lang.String)
+comment7.params=dotTextFile
+comment7.target=java.lang.String[]\ validateNumber(java.lang.String[])
+comment7.text=public\ String\ validateNumbers(String\ userInput)\r\n\ {\r\n\ //this\ method\ will\ check\ the\ length\ of\ the\ input\ from\ the\ parameter\ textfile,\ it\ will\ return\ true\ if\ the\ text\ is\ 8\ characters\ long\r\n\ String\ checkEight\ \=\ "Invalid";\r\n\ int\ eight\ \=\ userInput.length();\r\n\ if\ (eight\ \=\=\ 7)\ {\r\n\ userInput\ \=\ "Valid";\r\n}\r\n\ return\ userInput;\ \ \ \r\n}
+comment8.params=currentString
+comment8.target=boolean\ validateNumber(java.lang.String)
+comment9.params=currentString
+comment9.target=void\ printDigitValue(java.lang.String)
+numComments=12
